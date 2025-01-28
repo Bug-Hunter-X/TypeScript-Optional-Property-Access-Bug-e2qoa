@@ -1,0 +1,3 @@
+# TypeScript Optional Property Access Bug
+
+This repository demonstrates a common bug in TypeScript related to accessing optional properties in interfaces. The `printCoord` function attempts to access `pt.x` and `pt.y`, but if these properties are not present, a runtime error can occur. The solution shows how to safely handle optional properties using optional chaining or the nullish coalescing operator.
